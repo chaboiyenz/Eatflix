@@ -1,0 +1,80 @@
+{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+
+<h2 class="heading"> Movies </h2>
+
+<div class="movies-container">
+    <div class="box">
+        <div class="box-img">
+            <a href="/indiana/"> <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img1.jpg'%}"></image></a>
+        </div> <h3> Indiana Jones <br /> and the Dial of Destiny </h3>
+        <span>100 min</span>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <a href="/spiderman/"> <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img2.jpg'%}"></image></a>
+        </div> <h3> Spider-Man: <br /> Across the Spider-Verse </h3>
+        <span>100 min</span>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img3.jpg'%}"></image>
+        </div> <h3> Elemental </h3>
+        <span><br />100 min</span>
+        <p></p>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img4.jpg'%}"></image>
+        </div> <h3> No Hard Feelings </h3>
+        <span><br />100 min</span>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <a href="/transformers/"> <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img5.jpg'%}"></image></a>
+        </div> <h3> Transformers: <br />Rise of the Beasts </h3>
+        <span>100 min</span>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img6.jpg'%}"></image>
+        </div> <h3> Guardians of <br /> the Galaxy Vol.3 </h3>
+        <span>100 min</span>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img7.jpg'%}"></image>
+        </div> <h3> Ruby Gillman,<br />Teenage Kraken </h3>
+        <span>100 min</span>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img8.jpg'%}"></image>
+        </div> <h3> Asteroid City</h3>
+        <span><br />100 min</span>
+        <p></p>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <a href="/mermaid/"> <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img9.jpg'%}"></image></a>
+        </div> <h3>Little Mermaid </h3>
+        <span><br />100 min</span>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <image alt="" class="d-inline-block align-text-top" src="{% static 'images/img10.jpg'%}"></image>
+        </div> <h3> The Flash </h3>
+        <span><br />100 min</span>
+    </div>
+</div>
+    {% endblock %}

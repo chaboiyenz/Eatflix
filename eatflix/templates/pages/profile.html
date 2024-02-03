@@ -1,0 +1,28 @@
+{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+
+
+<a href="http://127.0.0.1:8000/main"> <i class="fa-solid fa-arrow-left"></i></a>
+<h1> Profile Page  </h1>
+<p> ID: {{subs.ID}}   </p>
+<p>  Name: {{subs.name}}</p>
+<p>  Email: {{subs.email}} </p>
+<p> Phone: {{subs.phone}}  </p>
+<p> Date: {{subs.date_subscription}}   </p>
+<p>  Payment: {{subs.payment}} </p>
+<p>  Subscription: {{subs.date}} </p>
+
+<style>
+    i {
+        padding-top: 40px;
+        color:white;
+        font-size: 40px;
+    }
+    i:hover {
+        color: grey;
+    }
+</style>
+
+
+{% endblock %}

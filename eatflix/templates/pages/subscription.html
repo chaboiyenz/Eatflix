@@ -1,0 +1,26 @@
+{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+
+
+<form class="wew" action="" method="POST">
+    {% csrf_token %}
+    {{form}}
+     <input type="submit" name="Submit"/>
+</form>
+
+
+<style>
+    h3 a{
+        padding-top: 40px;
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+        h3 a:hover {
+            color: grey;
+        }
+</style>
+
+{% endblock %}

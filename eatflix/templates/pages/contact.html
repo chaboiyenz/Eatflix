@@ -1,0 +1,35 @@
+﻿{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+
+<image alt="logo2" width="1904" height="955" class="contactlogo" src="{% static 'images/contact1.jpg'%}"></image>
+
+<div class="contact">
+     <div class="contact-box">
+            </div>
+            <div class="contact-box">
+                <div class="contact-body">
+                    <form>
+                        <h1>Contact Us</h1><br /> {% csrf_token %}
+                        <div class="form-content">
+                            <input type="email" name="femails" required>
+                            <span></span>
+                            <label>Email</label>
+                        </div>
+                        <div class="form-content">
+                            <input type="text" name="feeds" required>
+                            <span></span>
+                            <label>What would you like to discuss?</label>
+                        </div>
+                        <button type="submit">Send</button>     <p>
+                            <a href="https://www.facebook.com/wryder5"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://mail.google.com/mail/u/0/#inboxcompose=CllgCJftLmbtPJJwwGVsnjRfQcPMWmKmPtpwtWHTHXkjtskbqhdTZXHXfBxzkBGrcjWStVJwlVB"><i class="fa-solid fa-envelope"></i></a>
+                            <a href=" https://www.instagram.com/suppaflyteo/"> <i class="fa-brands fa-instagram"></i></a>
+
+
+                        </p>
+                    </form>
+                </div>
+            </div>
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+
+
+<br />
+<br />
+<br />
+
+<table border="1" style="font-family: Helvetica,sans-serif; color: white;">>
+    <tr>
+        <th><b> ID: </b> </th>
+        <th><b> Name </b> </th>
+        <th><b> Email </b>  </th>
+        <th><b> Phone </b>  </th>
+        <th><b> Date </b>  </th>
+        <th><b> Payment </b> </th>
+        <th><b> Subscription </b> </th>
+        <th><b> Read </b> </th>
+        <th><b> Update </b> </th>
+        <th><b> Delete </b> </th>
+    </tr>
+
+    <tr>
+        {% for subs in subs %}
+        <td>{{subs.ID}}</td>
+        <td>{{subs.name}}</td>
+        <td>{{subs.email}}</td>
+        <td>{{subs.phone}}</td>
+        <td>{{subs.date_subscription}}</td>
+        <td>{{subs.payment}}</td>
+        <td>{{subs.date}}</td>
+        <td><a href="{% url 'profile' subs.ID %}"> read</a></td>
+        <td><a href="{% url 'update' subs.ID %}"> update</a></td>
+        <td><a href="{% url 'delete' subs.ID %}"> delete</a></td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

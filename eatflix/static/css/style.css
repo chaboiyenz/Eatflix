@@ -1,0 +1,666 @@
+
+nav {
+    background-image: url("../images/bg2.jpg");
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3px;
+    transition: 0.5s;
+}
+nav ul li {
+   
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 120px;
+}
+    nav ul li a {
+        border: none;
+        margin-top: 20px;
+        margin-right: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        
+    }
+nav ul li a:hover {
+            background-color: black;
+            color: white;
+        }
+nav p {
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+nav p a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+ nav p a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+nav p a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../images/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+        .topnav a:hover {
+            background-color: white;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: black;
+            color: white;
+         
+        }
+    .topnav .icon {
+        display: none;
+    }
+    .topnav h1{
+        color: white;
+    }
+h1 {
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--main-color);
+    padding-left: 150px;
+    padding-top: 200px;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.arf {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    left: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--main-color);
+}
+p {
+    color: white;
+    font-size: 20px;
+    padding-left: 150px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+}
+    .contact p {
+        font-size: 25px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    margin-left: 0px;
+}
+.contact {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 0px;
+}
+.homelogo {
+    position: absolute;
+    top: 20%;
+    right: 32%;
+}
+.fa-facebook {
+    color:white;
+}
+.fa-envelope {
+    color: white;
+}
+.fa-instagram {
+    color: white;
+}
+.fa-cutlery {
+    color: white;
+}
+.fa-shopping-cart {
+    color: white;
+}
+
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    left: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--main-color);
+}
+.movies-container {
+    max-width: 9999px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    margin-top: 50px;
+}
+
+.box .box-img {
+    width: 100%;
+    height: 280px;
+}
+    .box .box-img image {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .box .box-img:hover {
+        transform: translateY(-10px);
+        transition: 0.2s all linear;
+
+    }
+.box h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+.box span {
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.foodies {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    left: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--main-color);
+}
+.food-container {
+    max-width: 10220px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    margin-top: 50px;
+}
+
+.box1 .box-img1 {
+    width: 100%;
+    height: 100%;
+}
+
+    .box1 .box-img1 {
+        width: 100%;
+        height: 70%;
+        object-fit: fill;
+    }
+
+    .box1 .box-img1:hover {
+        transform: translateY(-10px);
+        transition: 0.2s all linear;
+    }
+
+.box1 h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.box1 span {
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+video {
+   padding-left: 0px;
+}
+.vid p {
+    position: absolute;
+    top: 66%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    margin-left: 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.vid1 {
+    position: absolute;
+    top: 46%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    margin-left: 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.logog1 button {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+    background: white;
+    font-size: 30px;
+}
+hr {
+    width: 100%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-left: 0px;
+    border-right: 0px;
+}
+.logog1 {
+    position: absolute;
+}
+.logog1 h1 {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        padding-top: 250px;
+    }
+    .logog1 p {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 25px;
+    }
+.logog2 img{
+    padding-left: 150px;
+    }
+.vid p button {
+    border: none;
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+    .vid p button:hover {
+        background-color: white;
+        color: white;
+    }
+.container {
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+form1 {
+    background: white;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    margin-left: 1390px;
+    position:fixed;
+}
+    form1 input {
+        flex: 1;
+        border: none;
+        outline: none;
+      
+        font-size: 20px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    form1 button {
+        background: grey;
+        padding: 10px 50px;
+        border: none;
+        outline: none;
+        color: black;
+        letter-spacing: 1px;
+        cursor: pointer;
+       
+    }
+.container form1 textbox {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+}
+.container button {
+
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 178px;
+ 
+}
+.contact-body {
+    background-color: rgba();
+    height: 100%;
+}
+    .contact-body h1 {
+        color: white;
+        margin-right: 200px;
+    }
+form .form-content {
+    position: relative;
+    margin: 30px 0px;
+    border-bottom: 2px solid white;
+
+}
+
+    form .form-content input {
+        width: 100%;
+        height: 40px;
+        font-size: 17px;
+        border: none;
+        background: none;
+        outline: none;
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+
+    form .form-content label {
+        position: absolute;
+        top: 0%;
+        left: 5px;
+        color: white;
+        transform: translateY(-50%);
+        font-size: 17px;
+        transition: .5s;
+        pointer-events: none;
+    }
+.contact-body form button {
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px black;
+    position:relative;
+    overflow: hidden;
+}
+.movie img{
+    width: 100%;
+}
+.movie-info{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+    .movie-info h3 {
+        margin-top: 0;
+    }
+    .movie-info span {
+        padding: 0.25rem 0.5rem;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+        .movie-info span.green {
+            color: lightgreen;
+        }
+        .movie-info span.orange {
+            color: orange;
+        }
+        .movie-info span.red {
+            color: red;
+        }
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: transparent;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.movie:hover .overview {
+    transform: translateY(0)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #E3E7E8;
+    font-family: system-ui;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+
+    header .shopping {
+        position: relative;
+        text-align: right;
+    }
+
+        header .shopping img {
+            width: 40px;
+        }
+
+        header .shopping span {
+            background: red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            position: absolute;
+            top: -5px;
+            left: 80%;
+            padding: 3px 10px;
+        }
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+
+    .list .item {
+        text-align: center;
+        background-color: #DCE0E1;
+        padding: 20px;
+        box-shadow: 0 50px 50px #757676;
+        letter-spacing: 1px;
+    }
+
+        .list .item img {
+            width: 90%;
+            height: 430px;
+            object-fit: cover;
+        }
+
+        .list .item .title {
+            font-weight: 600;
+        }
+
+        .list .item .price {
+            margin: 10px;
+        }
+
+        .list .item button {
+            background-color: #1C1F25;
+            color: #fff;
+            width: 100%;
+            padding: 10px;
+        }
+
+.card {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 500px;
+    background-color: #453E3B;
+    height: 100vh;
+    transition: 0.5s;
+}
+
+.active .card {
+    left: calc(100% - 500px);
+}
+
+.active .container {
+    transform: translateX(-200px);
+}
+
+.card h1 {
+    color: #E8BC0E;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card .checkOut {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+    .card .checkOut div {
+        background-color: #E8BC0E;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .card .checkOut div:nth-child(2) {
+            background-color: #1C1F25;
+            color: #fff;
+        }
+
+.listCard li {
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    color: #fff;
+    row-gap: 10px;
+}
+
+    .listCard li div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .listCard li img {
+        width: 90%;
+    }
+
+    .listCard li button {
+        background-color: #fff5;
+        border: none;
+    }
+
+.listCard .count {
+    margin: 0 10px;
+}
+
+.main p {
+    color: white;
+    font-size: 30px;
+    
+}
+.wew {
+    margin-top: 40px;
+    color: white;
+    font-size: 40px;
+    margin: 8px 0;
+    padding: 20px 20px;
+}
+
+th, td {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.wow {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+.wow:hover{
+    color:grey;
+}
+
+

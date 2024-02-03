@@ -1,0 +1,32 @@
+{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+<div class="vid1">
+    <image alt="logo" width="620" height="280" class="d-inline-block align-text-top" src="{% static 'images/insi.png'%}"></image>
+</div>
+<div class="vid">
+    <p>
+        Josh Lambert and his college-age son Dalton grapple with generational<br /> trauma when they uncover repressed memories of the demon haunting their family.
+        <br />
+        <br />
+    </p>
+</div>
+<div class="vid3">
+    <video controls autoplay loop width="1890" height="1050">
+        <source src="static/images/trailer.mp4">
+    </video>
+   
+</div>
+<div class="logog1">
+    <h1 id="javademo"> WATCH YOUR FAVORITE MOVIE </h1>
+    <p>
+        Stream your favorite movies and TV Shows on your phone, laptop, and computer. <br />
+        Just type in the search bar your favorite movie and click search.
+    </p>
+</div>
+<hr />
+<div class="logog2">
+    <image alt="logo" width="1600" height="880" class="d-inline-block align-text-top" src="{% static 'images/logog1.png'%}"></image>
+</div>
+
+    {% endblock %}
